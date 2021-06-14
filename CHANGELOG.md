@@ -1,3 +1,4 @@
-## [0.0.1] - TODO: Add release date.
+##[0.0.2] - Add checks for all status codes
 
-* TODO: Describe initial release.
+## [0.0.1] - 14 / June / 2021.
+

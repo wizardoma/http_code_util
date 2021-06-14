@@ -3,6 +3,8 @@ library http_code_util;
 import 'package:http_code_util/status_codes.dart';
 
 /// @author: Ibekason Alexander Onyebuchi
+
+
 class HttpCodeUtil {
   /// Returns true if code ranges between 200 and 300
   bool isSuccessful(int code) {
