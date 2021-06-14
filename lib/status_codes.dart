@@ -5,7 +5,7 @@ const int SWITCHING_PROTOCOL = 101;
 const int PROCESSING = 102;
 const int EARLY_HINTS = 103;
 
-// Succesful responses
+// Successful responses
 const int OK = 200;
 const int CREATED = 201;
 const int ACCEPTED = 202;
