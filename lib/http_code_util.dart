@@ -31,10 +31,4 @@ class HttpCodeUtil {
   }
 
 
-
-  // successfull responses
-
-  bool isOk(int code) {
-    return code == OK;
-  }
 }
