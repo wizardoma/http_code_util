@@ -31,4 +31,47 @@ class HttpCodeUtil {
   }
 
 
+
+  // successful responses
+
+  bool isOk(int code) {
+    return code == OK;
+  }
+
+  bool isCreated(int code) {
+    return code == CREATED;
+  }
+
+  bool isAccepted(int code) {
+    return code == ACCEPTED;
+  }
+
+  bool isNonAuthInfo(int code) {
+  return code == NONAUTHORITATIVE_INFORMATION;
+  }
+
+  bool isNoContent(int code) {
+  return code == NO_CONTENT;
+  }
+
+  bool isResetContent(int code) {
+  return code == RESET_CONTENT;
+  }
+
+  bool isPartialContent(int code) {
+    return code == PARTIAL_CONTENT;
+  }
+
+  bool isMultiStatus(int code) {
+  return code == MULTI_STATUS;
+  }
+
+  bool isAlreadyReported(int code) {
+    return code == ALREADY_REPORTED;
+  }
+
+  bool isImUsed(int code) {
+  return code == IM_USED;
+  }
+
 }
