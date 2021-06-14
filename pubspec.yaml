@@ -1,6 +1,6 @@
 name: http_code_util
 description: A simple http response status code util to safely verify your status codes
-version: 0.0.2
+version: 0.0.3
 homepage: http://wizardoma.github.io
 
 environment:
