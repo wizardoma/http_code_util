@@ -1,10 +1,5 @@
-# http_code_util
+import 'package:http_code_util/http_code_util.dart';
 
-Http code util is a simple dart plugin that abstracts http response status code checking for your projects
-
-### Example 
-
-```dart
 class Test with StatusCodeUtil{
   int code = 400;
   void main() {
@@ -16,4 +11,3 @@ class Test with StatusCodeUtil{
     }
   }
 }
-```
